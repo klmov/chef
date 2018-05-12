@@ -1,0 +1,27 @@
+DEPENDENCIES
+  ark (~> 3.1.0)
+  java (~> 2.0.1)
+  jboss7
+    path: .
+    metadata: true
+
+GRAPH
+  ark (3.1.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (8.1.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  homebrew (5.0.4)
+  java (2.0.1)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  jboss7 (0.0.1)
+    ark (>= 0.0.0)
+    java (>= 0.0.0)
+  mingw (2.0.2)
+    seven_zip (>= 0.0.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (4.2.2)
